@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+.nav-head{
+    background-color: rgba(48, 19, 1, 0.954);
+    /* position: relative; */
+}
+.header-overlay{
+    /* position: absolute; */
+    /* top: 131%;
+    width: 100%; */
+    height: 30px;
+}
+.navbar-brand{
+        color: white;
+        font-size: 60px;
+        font-weight: bold;
+        /* margin-left: 30px; */
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color:#ffea07;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.carousel-caption{
+    margin-bottom: 100px;
+}
+.carousel-caption h2{
+    color: rgb(214, 155, 6);
+}
+.carousel-caption h1{
+    font-size: 120px;
+    font-weight: bold; 
+}
+.carousel-caption h3{
+    font-size: 35px;
+}
+.overlay{
+    /* background-color: rgba(123, 51, 3, 0.142); */
+    height: 80%;
+}
+.overlay img{
+    height: 100%; background-color: rgba(123, 51, 3, 0.142);
+}
+.vertical-uln{
+    width: 2px;
+    margin: auto;
+    height: 100px;
+    background-color: rgb(245, 133, 4);
+    margin-top: 90px;
+}
+
+.about-serving{
+    text-align: center;
+}
+.about-serving h4{
+    color: #cd6f03; 
+    margin-top: 10px;
+}
+.about-serving h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+.row{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+.col h1{
+    font-weight: 700;
+}
+.col h6{
+    font-size: 18px;
+    text-align: justify;
+    margin: 10px 0;
+}
+.col p{
+    font-size: 18px;
+    color: gray; 
+    margin: 15px 0;
+}
+
+/* .Learn-m{
+    border: 0;
+    background-color: black;
+    color: white;
+    font-weight:700;
+    padding: 10px 25px;
+} */
+.about-img{
+    width: 100%;
+    height: 400px;
+}
+.check{
+    font-size: 20px;
+    font-weight: 600;
+}
+.fa-check{
+    color: rgb(209, 117, 4);
+}
+.service-1{
+    display: flex;
+    margin-bottom: 30px;
+}
+.service-img{
+    width: 500px;
+    height: 200px;
+}
+.service-img img{
+    width: 100%;
+    height: 100%;
+}
+/* .services-details{
+    width: 60%;
+} */
+.rounded-circle{
+    background-color: #cd6f03a9;
+}
+.service-1 p{
+    font-size: 15px;
+}
+.sunday-offer{
+    position: relative;
+    /* background-image: url(./img/bg.jpg);
+    background-size: 100% 100%; */
+    margin: 30px 0;
+}
+.overlay-top{
+    position: absolute;
+    width: 100%;
+    height: 30px;
+}
+
+.sunday-offer img{
+    /* height: 100%; */
+    width: 100%;     
+}
+
+.overlay-bottom{
+    position:absolute;
+    top: 96%;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    /* background-color: black; */
+}
+
+.offer-details{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    color: white;
+}
+.offer-details h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: #ffea07;
+    text-align: center;
+}
+input{
+    border: 0;
+    outline: 0;
+}
+.coffee-menu{
+    position: relative;
+    margin: 30px 5px 20px 3px;
+}
+.coffee-menu img{
+    width: 110px;
+    height: 110px;
+}
+.coffee-img{
+}
+.btn-dolar{
+    position: absolute;
+    top: 0;
+    left: 13%;
+    width: 40px;
+    height: 42px;
+    font-size: 20px;
+    background-color: #de933ef6;
+}
+
+.table-reservation{
+    /* background-image: url(https://images.pexels.com/photos/6775241/pexels-photo-6775241.jpeg?auto=compress&cs=tinysrgb&w=600) !important;
+    background-size: 100% 100%; */
+    width: 85%;
+    margin: auto;
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 90px;
+}
+.resarvation-bg{
+    position: relative;
+}
+
+.overlay-bottom2{
+    position: absolute;
+    height: 30px;
+    left: 0;
+    top: 96%;
+}
+.table-reservation img{
+    width: 100%;
+}
+.resarvation-part{
+    position: absolute;
+    top: 5%;
+}
+.resarve-form{
+   
+}
+.resarve-details h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: #ffea07;
+}
+.booking-form{
+    background-color: #241401b9;
+    padding: 30px 50px;
+}
+.booking-form input{
+    border: 1px solid #de933ef6;
+    padding: 10px 110px;
+    margin: 10px 5px;
+    outline: 0;
+    background-color: transparent;
+}
+select{
+    border: 1px solid #de933ef6;
+    padding: 10px 161px;
+    margin: 10px 5px;
+    background-color: transparent;
+    color: gray;
+}
+.btn-book{
+    padding: 10px 161px;
+    margin: 10px 5px;
+    border: 0;
+    background-color: #cd6f03;
+}
+.footer-part{
+    position: relative;
+    margin-top: 90px;
+}
+.footer-part img{
+    width: 100%;
+}
+.footer-img{
+    height: 500px;
+}
+.footer-details{
+    color: white;
+    position: absolute;
+    top: 10%;
+}
+.footer-details p{
+    color: white;
+}
+
+body{
+    position: relative;
+    scroll-behavior: smooth;
+}
+.jump-btn{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 25px;
+    border: 0;
+    padding: 5px 15px;
+    background-color: #cd6f03;
+    animation-name: btn-animation;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+
+}
+
+@keyframes btn-animation{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+}
+
+
+
+
+
+
+
+
+
+/*         RESPONSIVE SITE               */
+@media screen and (max-width:576px){
+    .navbar-brand{
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        margin-left: 30px;
+}
+    .carousel-caption{
+        margin-bottom: 5px;
+    }
+    .carousel-caption h1{
+        font-size: 80px;
+        font-weight: bold;
+    }
+    .header-overlay{
+        position: absolute;
+        top: 76%;
+        width: 100%;
+    }
+    .about-serving h1{
+        font-weight: 700;
+        font-size: 35px;
+    }
+    .service-1{
+        flex-direction: column;
+    }
+    .service-1 h4{
+        font-size: 20px;
+    }
+    .service-img{
+        width:350px;
+        height: 300px;
+        margin: auto;
+    }
+     .bg-img{
+        height: 360px;
+        width: 100%;     
+    }
+    .overlay-bottom{
+        top: 92%;
+    }
+    .offer-details{
+        top: 15%;
+        left: 5%;
+    }
+    .offer-details h1{
+        font-size: 50px;
+    }
+    .btn-dolar{
+        left: 20%;
+    }
+    .resarvation-bg{
+        position: relative;
+    }
+    .overlay-bottom2{
+        position: absolute;
+        height: 30px;
+        left: 0;
+        top: 97%;
+    }
+    .resarve-details h1{
+        font-size: 50px;
+    }
+    .reserve-bg{
+        width: 100%;
+        height: 890px;
+    }
+    .booking-form{
+        padding: 20px 2px;
+        margin: 10px;
+        /* border:2px solid white */
+    }
+    .booking-form input{
+        padding: 10px 70px;
+    }
+    select{
+        padding: 10px 121px;
+    }
+    .btn-book{
+        padding: 10px 122px;
+    }
+    .footer-details{
+        top: 5%;
+    }
+    /* .footer-details col{
+        margin-top: 100px;
+    } */
+    .footer-img{
+        height: 1030px;
+    }
+    /* .fa-brands{
+        display: inline-block;
+    } */
+    .jump-btn{
+        /* left: 10%; */
+    }
+}
+
+
+@media screen and (min-width:577px) and (max-width:992px)
+{
+    .footer-img{
+        height: 700px;
+    }
+}

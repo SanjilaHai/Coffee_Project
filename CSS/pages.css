@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading-part{
+    position: relative;
+}
+.bg-img{
+    width: 100%;
+    height: 450px;
+}
+.overlay{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 94%;
+    left: 0;
+}
+/* .nav-head{
+   
+} */
+/* .navbar-part{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: aliceblue;
+} */
+.navbar-brand{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    /* margin-left: 30px; */
+}
+.navbar-toggler{
+    background-color: white;
+}
+.nav-list{
+    margin-left: 230px;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color:rgb(243, 186, 63);
+}
+.common-cls{
+    /* position: absolute;
+    top: 50%;
+    left: 42%; */
+    color: white;  
+}
+.common-cls img{
+    height: 450px;
+}
+.common-cls h1{
+    font-size: 50px;
+}
+.About-Us{
+    margin-bottom: 150px;
+}
+
+.footer-part{
+    margin-top: 140px;
+}
+
+
+
+
+
+
+
+
+/*      RESPONSIVE SITE       */
+@media screen and (max-width:576px){
+    .navbar-brand{
+        font-size: 50px;
+    }
+    .common-cls img{
+        height: 300px;
+    }
+    .bg-img{
+        height: 300px;
+    }
+    .overlay{
+        top: 91%;
+    }
+    .footer-img{
+        height: 1030px;
+    }
+    .common-cls h1{
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (min-width:577px) and (max-width:992px)
+{
+    .footer-img{
+        height: 700px;
+    }
+}
